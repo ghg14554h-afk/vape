@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас — Ego</title>
+  <meta name="description" content="История и ценности бренда Ego — премиального магазина табачной продукции.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="page-loader">
+    <svg class="loader-smoke" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 60 C10 45, 20 30, 35 26 C25 22, 18 14, 22 6 C30 12, 42 10, 48 18 C52 10, 62 6, 68 14 C74 8, 78 14, 76 24 C82 22, 84 32, 78 40 C84 42, 82 52, 74 56 C68 64, 54 68, 40 64 C24 68, 12 64, 10 60Z" fill="#b08d6f" opacity="0.8"/>
+    </svg>
+  </div>
+
+  <div class="smoke-bg" aria-hidden="true">
+    <svg class="smoke-wave smoke-wave--1" viewBox="0 0 1440 200" preserveAspectRatio="none"><path d="M0,100 C240,160 480,40 720,100 C960,160 1200,40 1440,100 L1440,200 L0,200Z" fill="#b08d6f"/></svg>
+    <svg class="smoke-wave smoke-wave--3" viewBox="0 0 1440 200" preserveAspectRatio="none"><path d="M0,120 C480,60 720,180 960,100 C1200,20 1320,140 1440,80 L1440,200 L0,200Z" fill="#b08d6f"/></svg>
+  </div>
+
+  <div class="page">
+    <header class="header">
+      <div class="header__inner">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.png" alt="Ego — магазин табачной продукции" class="logo__img">
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav__link">Главная</a>
+          <a href="catalog.html" class="nav__link">Каталог</a>
+          <a href="about.html" class="nav__link active">О нас</a>
+          <a href="contacts.html" class="nav__link">Контакты</a>
+        </nav>
+        <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="page-hero container reveal">
+        <h1 class="page-hero__title">О нас</h1>
+        <p class="page-hero__desc">История бренда и наши ценности</p>
+      </div>
+
+      <section class="section container">
+        <div class="about-grid">
+          <div class="about-grid__text reveal">
+            <p>Ego — магазин табачной продукции, который предлагает широкий ассортимент товаров премиум-класса для ценителей качества.</p>
+            <p>Мы создали пространство, где каждая деталь продумана — от отбора поставщиков до атмосферы внутри магазина. Наша команда — эксперты, которые помогут подобрать идеальный продукт и поделятся знаниями о мире табака и вейпинга.</p>
+            <p>Ego — это не просто магазин. Это сообщество людей, ценящих качество, стиль и премиальный опыт.</p>
+            <a href="catalog.html" class="btn" style="margin-top: 16px;">Перейти в каталог</a>
+          </div>
+          <div class="about-visual reveal reveal-delay-1">
+            <svg class="about-visual__smoke" viewBox="0 0 400 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0,400 C100,350 150,450 250,380 C350,310 380,420 400,350 L400,500 L0,500Z" fill="#b08d6f" opacity="0.15"/>
+              <path d="M0,300 C120,250 200,350 300,280 C360,230 380,320 400,260 L400,500 L0,500Z" fill="#b08d6f" opacity="0.08"/>
+            </svg>
+            <img src="assets/logo.png" alt="Ego — магазин табачной продукции" class="about-visual__logo">
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat reveal">
+            <div class="stat__number" data-count="12">0</div>
+            <div class="stat__label">Лет опыта</div>
+          </div>
+          <div class="stat reveal reveal-delay-1">
+            <div class="stat__number" data-count="500" data-suffix="+">0+</div>
+            <div class="stat__label">Позиций в каталоге</div>
+          </div>
+          <div class="stat reveal reveal-delay-2">
+            <div class="stat__number" data-count="50" data-suffix="+">0+</div>
+            <div class="stat__label">Брендов-партнёров</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section__header reveal">
+          <p class="section__label">Философия</p>
+          <h2 class="section__title">Наши ценности</h2>
+          <div class="section__divider"></div>
+        </div>
+        <div class="values">
+          <div class="value-card reveal">
+            <svg class="value-card__icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1">
+              <circle cx="32" cy="32" r="28"/>
+              <path d="M32 44 C32 44, 20 36, 20 26 C20 20, 25 16, 32 20 C39 16, 44 20, 44 26 C44 36, 32 44, 32 44Z"/>
+            </svg>
+            <h3 class="value-card__title">Качество</h3>
+            <p class="value-card__text">Мы работаем только с проверенными поставщиками и гарантируем подлинность каждого товара. Каждая позиция проходит строгий отбор.</p>
+          </div>
+          <div class="value-card reveal reveal-delay-1">
+            <svg class="value-card__icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1">
+              <circle cx="32" cy="32" r="28"/>
+              <path d="M18 40 C28 28, 36 28, 46 40"/>
+              <path d="M22 32 C30 22, 34 22, 42 32"/>
+            </svg>
+            <h3 class="value-card__title">Стиль</h3>
+            <p class="value-card__text">Минимализм и элегантность — в основе нашего бренда. Мы создаём эстетику, которая отражает характер наших клиентов.</p>
+          </div>
+          <div class="value-card reveal reveal-delay-2">
+            <svg class="value-card__icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1">
+              <circle cx="32" cy="32" r="28"/>
+              <path d="M32 18 L35 28 L46 28 L37 34 L40 44 L32 38 L24 44 L27 34 L18 28 L29 28Z"/>
+            </svg>
+            <h3 class="value-card__title">Премиум</h3>
+            <p class="value-card__text">Эксклюзивные коллекции, лимитированные серии и персональный сервис — всё для тех, кто выбирает лучшее.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container--narrow">
+        <div class="cta-banner reveal">
+          <h2 class="cta-banner__title">Карта постоянного покупателя</h2>
+          <p class="cta-banner__text">Накапливайте бонусы и получайте доступ к эксклюзивным предложениям</p>
+          <a href="contacts.html" class="btn btn--filled">Узнать подробнее</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="index.html" class="logo">
+              <img src="assets/logo.png" alt="Ego — магазин табачной продукции" class="logo__img">
+            </a>
+            <p>Премиальный магазин табачной продукции и вейпов для ценителей качества и стиля.</p>
+          </div>
+          <div>
+            <h4 class="footer__heading">Навигация</h4>
+            <ul class="footer__links">
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__heading">Контакты</h4>
+            <ul class="footer__links">
+              <li><a href="tel:+79991234567">+7 999 123 45 67</a></li>
+              <li><a href="mailto:info@ego-tobacco.ru">info@ego-tobacco.ru</a></li>
+              <li><a href="https://ego-tobacco.ru">ego-tobacco.ru</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span class="footer__copy">&copy; 2026 Ego. Все права защищены.</span>
+          <span class="footer__legal">18+ Только для совершеннолетних</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

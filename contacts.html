@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — Ego</title>
+  <meta name="description" content="Свяжитесь с магазином Ego — телефон, email, адрес и форма обратной связи.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="page-loader">
+    <svg class="loader-smoke" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 60 C10 45, 20 30, 35 26 C25 22, 18 14, 22 6 C30 12, 42 10, 48 18 C52 10, 62 6, 68 14 C74 8, 78 14, 76 24 C82 22, 84 32, 78 40 C84 42, 82 52, 74 56 C68 64, 54 68, 40 64 C24 68, 12 64, 10 60Z" fill="#b08d6f" opacity="0.8"/>
+    </svg>
+  </div>
+
+  <div class="smoke-bg" aria-hidden="true">
+    <svg class="smoke-wave smoke-wave--2" viewBox="0 0 1440 200" preserveAspectRatio="none"><path d="M0,80 C360,140 720,20 1080,80 C1260,120 1380,60 1440,100 L1440,200 L0,200Z" fill="#b08d6f"/></svg>
+  </div>
+
+  <div class="page">
+    <header class="header">
+      <div class="header__inner">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.png" alt="Ego — магазин табачной продукции" class="logo__img">
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav__link">Главная</a>
+          <a href="catalog.html" class="nav__link">Каталог</a>
+          <a href="about.html" class="nav__link">О нас</a>
+          <a href="contacts.html" class="nav__link active">Контакты</a>
+        </nav>
+        <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="page-hero container reveal">
+        <h1 class="page-hero__title">Контакты</h1>
+        <p class="page-hero__desc">Мы всегда рады вашему визиту</p>
+      </div>
+
+      <section class="section container">
+        <div class="contacts-grid">
+          <div class="contact-info reveal">
+            <div class="contact-info__item">
+              <p class="contact-info__label">Директор</p>
+              <p class="contact-info__value">Иван Иванов</p>
+            </div>
+            <div class="contact-info__item">
+              <p class="contact-info__label">Телефон</p>
+              <p class="contact-info__value"><a href="tel:+79991234567">+7 999 123 45 67</a></p>
+            </div>
+            <div class="contact-info__item">
+              <p class="contact-info__label">Email</p>
+              <p class="contact-info__value"><a href="mailto:info@ego-tobacco.ru">info@ego-tobacco.ru</a></p>
+            </div>
+            <div class="contact-info__item">
+              <p class="contact-info__label">Сайт</p>
+              <p class="contact-info__value"><a href="https://ego-tobacco.ru">ego-tobacco.ru</a></p>
+            </div>
+            <div class="contact-info__item">
+              <p class="contact-info__label">Адрес</p>
+              <p class="contact-info__value">г. Москва, ул. Примерная, 12</p>
+            </div>
+            <div class="contact-info__item">
+              <p class="contact-info__label">Режим работы</p>
+              <p class="contact-info__value">Пн–Вс: 10:00 — 22:00</p>
+            </div>
+          </div>
+
+          <form class="contact-form reveal reveal-delay-1">
+            <div class="form-group">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="email@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Тема</label>
+              <select id="subject" name="subject">
+                <option value="general">Общий вопрос</option>
+                <option value="order">Заказ</option>
+                <option value="partnership">Сотрудничество</option>
+                <option value="loyalty">Карта постоянного покупателя</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" placeholder="Ваше сообщение..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--filled">Отправить</button>
+          </form>
+        </div>
+
+        <div class="map-placeholder reveal">
+          <div class="map-placeholder__grid"></div>
+          <span class="map-placeholder__text">г. Москва, ул. Примерная, 12</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="index.html" class="logo">
+              <img src="assets/logo.png" alt="Ego — магазин табачной продукции" class="logo__img">
+            </a>
+            <p>Премиальный магазин табачной продукции и вейпов для ценителей качества и стиля.</p>
+          </div>
+          <div>
+            <h4 class="footer__heading">Навигация</h4>
+            <ul class="footer__links">
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__heading">Контакты</h4>
+            <ul class="footer__links">
+              <li><a href="tel:+79991234567">+7 999 123 45 67</a></li>
+              <li><a href="mailto:info@ego-tobacco.ru">info@ego-tobacco.ru</a></li>
+              <li><a href="https://ego-tobacco.ru">ego-tobacco.ru</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span class="footer__copy">&copy; 2026 Ego. Все права защищены.</span>
+          <span class="footer__legal">18+ Только для совершеннолетних</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
